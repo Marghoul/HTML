@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Финальный проект по HTML — простая страница</title>
+</head>
+
+<body>
+    <header>
+        <h1>Финальный проект по HTML</h1>
+        <p>Эта страница создана для проверки валидности и доступности.</p>
+    </header>
+
+    <nav aria-label="Основная навигация">
+        <ul>
+            <li><a href="#about">О странице</a></li>
+            <li><a href="#gallery">Галерея</a></li>
+            <li><a href="#resources">Ресурсы</a></li>
+        </ul>
+    </nav>
+
+    <main id="about">
+        <section>
+            <h2>О странице</h2>
+            <p>
+                Здесь есть семантические теги, список, изображения с описательными alt и внешняя ссылка.
+                Структура заголовков соблюдена: h1 → h2.
+            </p>
+
+            <h3>Список целей проекта</h3>
+            <ol>
+                <li>Сделать корректную HTML-структуру (doctype, head, body, title, main).</li>
+                <li>Добавить семантические элементы и логичную структуру заголовков.</li>
+                <li>Проверить страницу через валидатор и инструмент доступности.</li>
+            </ol>
+        </section>
+
+        <section id="gallery">
+            <h2>Галерея изображений</h2>
+            <p>Все изображения имеют описательные alt-тексты.</p>
+
+            <figure>
+                <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=60"
+                    alt="Горный хребет на закате, тёплый свет над вершинами">
+                <figcaption>Изображение 1: горы на закате</figcaption>
+            </figure>
+
+            <figure>
+                <img src="https://images.unsplash.com/photo-1520975693415-35a07d6aa8d9?auto=format&fit=crop&w=1200&q=60"
+                    alt="Рабочий стол: ноутбук, блокнот и чашка кофе рядом">
+                <figcaption>Изображение 2: рабочее место</figcaption>
+            </figure>
+
+            <figure>
+                <img src="https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?auto=format&fit=crop&w=1200&q=60"
+                    alt="Ночной городской пейзаж с огнями зданий и улиц">
+                <figcaption>Изображение 3: ночной город</figcaption>
+            </figure>
+        </section>
+
+        <section id="resources">
+            <h2>Полезные ресурсы</h2>
+            <ul>
+                <li>
+                    Проверка валидности HTML:
+                    <a href="https://validator.w3.org/" target="_blank" rel="noopener noreferrer">
+                        W3C Markup Validation Service
+                    </a>
+                </li>
+                <li>
+                    Проверка доступности:
+                    <a href="https://wave.webaim.org/" target="_blank" rel="noopener noreferrer">
+                        WAVE Web Accessibility Evaluation Tool
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Финальный проект</p>
+    </footer>
+</body>
+
+</html>
